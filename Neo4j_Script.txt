@@ -1,0 +1,12 @@
+create (t:Tweet {name:'Tweet_ID'}) - [:HAS] -> (m:Mention {name:'@_Mention'})
+create (t) - [:RETWEETS] -> (mi:misinformation {name:'Tweets'})
+create (t) - [:HAS] -> (n:users {name:'Screen_name'})
+create (n) - [:MIGHTBE] -> (b:bot {name: 'Bot'})
+create (t) - [:HAS] -> (tw:Text {name:'Text'})
+create(tw)  - [:HAS] -> (s:Sentiment {name: 'Polarity'})
+create(tw) - [:HAS] -> (h:Hashtag {name: 'Tags'})
+create(tw) - [:MIGHTHAVE] -> (i:mislead {name: 'Misinformation'})
+create(t)  - [:LIVES] -> (l:Location {name: 'Location'})
+create(tw)  - [:HAS] -> (u:url {name: 'URL'})
+create(t)  - [:TWEETS_FROM] -> (d:source {name: 'Device'})
+return t,m,tw,s,h,l,u,d,mi,i,b,n

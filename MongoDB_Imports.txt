@@ -1,0 +1,3 @@
+Initialize MongoDB server: "C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath "C:\data"
+
+Import files: "C:\Program Files\MongoDB\Server\4.2\bin\mongoimport" --db twitter --collection twitter_analysis --type csv --file "C:\Users\naras\OneDrive\Documents\DEPA\FinalProject\FULLDATASET.csv" --headerline
