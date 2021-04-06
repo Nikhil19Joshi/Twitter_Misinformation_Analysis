@@ -21,7 +21,7 @@ In this regard, our project is a baby step towards eradicating harmful data on T
 - Categorize the hashtags on categories like (Antiviral, Disinfectant, Myth, Stay Home and No Category) along with sentiment polarities.
 - Identify the top 20 source of misinformation spread (for eg. Iphone, android, web app, ipad etc.)
 
-**Data Engineering**
+**Data Engineering**  
 For Data Engineering part, we used mySQL workbench to create the Entitity relationship Diagram and was using MySQl as a database. However, given the unstructured nature of the dataset we used MongoDB to be the ideal database to store our tweets.  
 
 **NLP**  
