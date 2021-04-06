@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/68136798/113654391-52310000-965d-11eb-98e2-41f1b3e1363b.png)
+
 # Data Engineering Platform Final Project (The University of Chicago, Physical Sciences Division)  
 
 ## Tools Used: TweePy, Python, Pandas, Matplotlib, Seaborn, MySQL, MongoDB, Tableau  
